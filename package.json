@@ -1,0 +1,48 @@
+{
+  "name": "apirestful-oatuth2.0",
+  "version": "1.0.0",
+  "description": "API RESTful with OAuth2.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app/index.js",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duarte007/apiRESTful-OAtuth2.0.git"
+  },
+  "keywords": [
+    "API",
+    "node",
+    "nodejs",
+    "js",
+    "RESTful",
+    "REST",
+    "OAuth2",
+    "OAuth"
+  ],
+  "author": "Matheus Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duarte007/apiRESTful-OAtuth2.0/issues"
+  },
+  "homepage": "https://github.com/Duarte007/apiRESTful-OAtuth2.0#readme",
+  "dependencies": {
+    "@okta/jwt-verifier": "0.0.12",
+    "body-parser": "^1.19.0",
+    "btoa": "^1.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "finale-rest": "^1.1.1",
+    "helmet": "^3.22.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sequelize": "^5.21.12",
+    "sqlite": "^4.0.10",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  }
+}
